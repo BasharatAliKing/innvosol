@@ -1,0 +1,97 @@
+#Services{
+    text-align: center;
+    margin-top: 150px;
+}
+p{
+    font-size: 14px;
+}
+#Services #main-heading{
+    color: #0B0C2214;
+    font-size: 120px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#Services h2{
+    margin-top: -110px;
+    font-size: 44px;
+    color: #11526e;
+    font-weight: 900;
+}
+#Services .para{
+   
+    color: #11526e;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 30px 200px;
+}
+ #conversation{
+    text-align: center;
+    margin-top: 80px;
+   background: url(/public//bg-hero.png)no-repeat center center/cover;
+   padding-bottom: 40px;
+}
+#conversation h1{
+    margin: 0px;
+    padding: 0px;
+    color: #11526e;
+}
+#conversation .btn{
+    margin-top: 20px;
+    font-size: 15px;
+    background-color: #028329;
+    border-radius: 8px;
+    padding: 10px 30px;
+    color: white;
+    font-weight: 400;
+}
+#conversation .btn:hover{
+    background-color: #00581b;
+    transition: .7s;
+}
+#tech{
+    margin-top: 80px;
+}
+#tech p{
+    color: #11526e;
+    font-size: 18px;
+    font-weight: 400;
+}
+#tech .box{
+    margin: 10px 20px;
+    border: 1px solid #028329;
+    padding: 4px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 22px;
+}
+#tech .box:hover{
+    border-color: #11526e;
+    transition: .7s;
+}
+
+@media(max-width:992px){
+    #Services h2{
+        margin-top: -110px;
+        font-size: 44px;
+        color: #11526e;
+        font-weight: 900;
+    }
+    #Services .para{
+        margin: 30px 00px;
+    }   
+}
+@media (max-width:576px){
+    #Services #main-heading{
+    font-size: 70px;
+}
+#Services h2{
+    margin-top: -70px;
+    font-size: 33px;
+}
+    #tech .box{
+        margin: 10px 10px;
+        padding: 4px 20px;
+        font-size: 18px;
+    }
+
+}

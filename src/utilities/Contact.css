@@ -1,0 +1,94 @@
+#Contacts{
+    margin-top: 100px;
+    text-align: center;
+}
+#Contacts h1{
+    color: #11526e;
+    font-weight: 900;
+}
+#Contacts .para{
+    margin: 0px 150px;
+    font-size: 18px;
+}
+#Contacts #hire h1{
+    color: #fff;
+}
+#Form{
+    margin-top: 100px;
+}
+#Form form{
+    padding:40px;
+}
+#Form form h2{
+    font-weight: 700;
+}
+#Form form p{
+    font-size: 20px;
+    color: #11526e;
+}
+#Form form input,select,textarea{
+    margin-top: 20px;
+}
+#Form form .checkbox{
+    display: flex;
+}
+#Form form .accept{
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: -25px;
+}
+#Form form span{
+    color: #00cc52;
+}
+#Form form .btn{
+    margin-top: 20px;
+    width: 100%;
+    background-color: #11526e;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+#Form form .btn:hover{
+    background-color: #0a2f3f;
+    transition: .7s;
+}
+
+#looking-job{
+    text-align: center;
+    margin-top: 80px;
+    background-color: #00cc526e;
+    padding: 70px 0px;
+}
+#looking-job h1{
+    margin-top: 0px;
+    color: #0a2f3f;
+    font-weight: 700;
+}
+#looking-job .btn{
+    margin-top: 10px;
+    background-color: #00983d;
+    color:white;
+    padding: 10px 50px;
+    border-radius: 50px;
+}
+#looking-job .btn:hover{
+      background-color: #0a7936d8;
+      transition: .7s;
+}
+#map iframe{
+    width: 100%;
+}
+#footer {
+    margin-top: -5px;
+}
+
+@media(max-width:768px){
+    #Contacts .para{
+        margin: 0px 0px;
+    }
+}
+@media(max-width:596px){
+    #Contacts{
+        text-align: center;
+    }
+}
