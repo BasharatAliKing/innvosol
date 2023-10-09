@@ -1,0 +1,66 @@
+#discussing h1{
+    margin: 0px;
+    font-size: 35px;
+}
+.left-circle{
+    content: " ";
+    position: absolute;
+    left: 150px;
+    top: 20px;
+    background-color: #00983d;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.right-circle{
+    content: " ";
+    position: absolute;
+    right: -50px;
+    top: -100px;
+    background-color: #00983d;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.bottom-circle{
+    content: " ";
+    position: absolute;
+    left: 250px;
+    bottom: 20px;
+    background-color: #00bd4b;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+#discussing #box-discuss{
+    padding: 50px 100px;
+    height: 300px;
+    background-color: #11526e;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+   /* // background-transition: .7s; */
+    border-radius: 30px;
+}
+#discussing p{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    color: #ddd;
+    font-size: 18px;
+    font-weight: 400;
+}
+#discussing .btn{
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 20px;
+   color: white;
+    background-color:#00983d; 
+    border: none;
+    border-radius: 8px;
+    padding: 13px 40px;
+}
+#discussing .btn:hover{
+    background-color: #00702d;
+    transition: .7s;
+}

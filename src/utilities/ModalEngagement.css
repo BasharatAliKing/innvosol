@@ -1,0 +1,20 @@
+#modal-engagement i{
+    color: #11526e;
+    margin-top: 0px;
+    background: none;
+}
+#modal-engagement .fa-lightbulb-o{
+    font-size: 40px;
+}
+#modal-engagement {
+    color: #11526e;
+    padding: 10px 15px;
+    height: auto;
+    padding-top: 15px;
+}
+#modal-engagement h5{
+    font-size: 18px;
+}
+#modal-engagement p{
+    font-size: 14px;
+}

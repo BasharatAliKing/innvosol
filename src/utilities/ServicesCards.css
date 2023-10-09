@@ -1,0 +1,33 @@
+
+.media{
+    margin-top: 20px;
+    text-align: start;
+    padding: 20px;
+    background-color: #fff;
+   border: 1px solid #eee;
+    border-radius: 10px;
+    height:170px;
+}
+.media:hover{
+    transition: .7s;
+    background-color: white;
+    box-shadow: 0px 0px 12px rgb(138, 138, 138);
+}
+.media .fa-mobile{
+    font-size: 50px;
+    padding: 15px 25px;
+}
+.media i{
+    font-size: 33px;
+    background-color: #f5f9f6;
+    color: #00983d;
+    border-radius: 50%;
+    padding: 20px;
+}
+.media h5{
+    font-size: 16px;
+    font-weight: bold;
+}
+.media .media-body{
+    margin-left: 10px;
+}

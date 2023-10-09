@@ -1,0 +1,68 @@
+@media(max-width:992px){
+    #home .home-h1 {
+        margin-top: 100px;
+    }
+    #home .home-para {
+        width: 100%;
+    }
+    #home .touch {
+        padding: 13px 10px;
+    }
+    #home .portfolio {
+    padding: 13px 5px;
+}
+#services p {
+    padding: 0px 10px;
+}
+.bottom-circle {
+    display: none;
+}
+#business-grow #pic{
+   margin-top: 30px;
+}
+#improve h1 {
+    padding: 0px 20px;
+}
+#improve #box{
+    height: 280px;
+}
+#improve p{
+    font-size: 16px;
+}
+#discussing #box-discuss{
+    height: 350px;
+}
+#quick-support #for{
+    margin-top: 20px;
+}
+}
+@media(max-width:768px){
+    #home .touch {
+        padding: 13px 35px;
+    }
+    #home .portfolio {
+        margin-top: 10px;
+    padding: 13px 15px;
+}
+#discussing #box-discuss{
+    height: 400px;
+    padding: 70px 20px;
+    align-items: center;
+}
+#improve .col-md-6{
+    margin-top: 20px;
+    padding-left: 20px;
+}
+#improve #box{
+    height: 200px;
+}
+#engagement .b{
+    margin-top: 50px;
+}
+#quick-support form input{
+  margin-top: 20px;
+}
+}
+@media(max-width:576px){
+    
+}

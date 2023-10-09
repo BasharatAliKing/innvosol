@@ -1,0 +1,58 @@
+#header nav{
+    padding: 20px 100px;
+    transition: background-color .5s ease !important;
+    background: linear-gradient(90deg,rgba(249,251,250,1) 0%,rgba(226,245,239,1) 44%,rgba(235,248,242,1) 91%);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+     z-index: 1;
+   
+}
+#header {
+    padding: 10px; 
+  
+}
+nav ul{
+   
+}
+nav .btn{
+    font-family: "Poppins",Sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 20px;
+    background-color: #00983d;
+    border-radius: 8px;
+    color: white;
+    padding: 12px 20px;
+    margin-left: 30px;
+}
+nav .btn:hover{
+    color: white;
+    background-color: #006127;
+    transition: .9s;
+}
+nav ul li a{
+    font-family: "Poppins",Sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 15px;
+}
+nav  ul li .nav-link:hover{
+    color: #006428;
+}
+nav .dropdown-menu{
+    background-color: #029d403a;
+}
+nav .dropdown-item{
+    font-family: "Poppins",Sans-serif;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    color: black;
+}
+nav .dropdown-item:hover{
+    background-color: #00983d;
+    color: white;
+}
