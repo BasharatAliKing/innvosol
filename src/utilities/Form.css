@@ -1,0 +1,16 @@
+#Form-alone{
+    margin-top: 0px;
+}
+form{
+    border-radius: 10px;
+    background-color: #fff;
+}
+form .btn{
+    background-color: #11526e;
+    color: white;
+    border-radius: 7px;
+}
+form .btn:hover{
+    background-color: #0a2f3d;
+    transition: .7s;
+}

@@ -20,7 +20,7 @@ export default function Navbar() {
         WHAT'S WE OFFER <i className='fa fa-plus'></i>
         </a>
         <div class="dropdown-menu">
-          <Link class="dropdown-item" to="#">Web Development</Link>
+          <Link class="dropdown-item" to="/Website-Development-services">Web Development</Link>
           <Link class="dropdown-item" to="#">E-Commerce Development</Link>
           <Link class="dropdown-item" to="#">Mobile App Development</Link>
           <Link class="dropdown-item" to="#">UI/UX Desgin</Link>

@@ -8,6 +8,7 @@ import Carrier from './Pages/Carrier';
 import Contact from './Pages/Contact';
 import About from './Pages/About';
 import Process from './Pages/Process';
+import WebDevelopment from './Pages/WebDevelopment';
 export default function App() {
   return (
     <>
@@ -21,6 +22,8 @@ export default function App() {
           <Route exact path='/Contact-Us' element={<Contact/>}></Route>
           <Route exact path='/About-Us' element={<About/>}></Route>
           <Route exact path='/Process' element={<Process/>}></Route>
+          <Route exact path='/Process' element={<Process/>}></Route>
+          <Route exact path='/Website-Development-services' element={<WebDevelopment/>}></Route>
         </Routes>
       </Router>
     </>

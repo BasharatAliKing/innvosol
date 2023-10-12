@@ -6,6 +6,7 @@ import ImproveCard from '../Components/ImproveCard';
 import ModalEngagement from '../Components/ModalEngagement';
 import Footer from '../layout/Footer';
 import "../utilities/HomeResponcive.css";
+import Form from '../Components/Form';
 export default function Home() {
   return (
     <>
@@ -229,17 +230,7 @@ export default function Home() {
           </ul>
         </div>
         <div id='for' className="offset-lg-1 col-lg-5">
-          <form className='shadow p-4 ' >
-            <h2>Fill out the form and we'll be in touch ASAP.</h2>
-            <div className="row mt-3">
-              <div className="col-md-6"><input type="text" className='form-control' placeholder='First Name' /></div>
-              <div className="col-md-6"><input type="text" className='form-control' placeholder='Last Name' /></div>
-            </div>
-            <input type="email" placeholder='Email Address' className='form-control mt-4' />
-            <input type="phone" placeholder='Mobile Number' max="12" className='form-control mt-4' />
-            <textarea className='form-control mt-4' name="" id="" cols="20" placeholder='Tell us more about your projects?' rows="5"></textarea>
-            <button className='btn form-control mt-4'>Submit Form</button>
-          </form>
+         <Form heading="Fill out the form and we'll be in touch ASAP." />
         </div>
        </div>
       </div>

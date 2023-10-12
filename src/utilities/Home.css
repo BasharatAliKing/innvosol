@@ -302,17 +302,4 @@ color: #00702d;
     color: #00702d;
     ;
 }
-#quick-support form{
-    border-radius: 10px;
-    background-color: #fff;
-}
-#quick-support .btn{
-    background-color: #11526e;
-    color: white;
-    border-radius: 7px;
-}
-#quick-support .btn:hover{
-    background-color: #0a2f3d;
-    transition: .7s;
-}
 
