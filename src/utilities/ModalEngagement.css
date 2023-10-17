@@ -1,20 +1,43 @@
-#modal-engagement i{
+ #engagement .media .icon-modal{
     color: #11526e;
-    margin-top: 0px;
-    background: none;
+    background-color: antiquewhite;
+   font-size: 35px;
+   background-color: #11526e00;
+   margin-right: 20px;
 }
-#modal-engagement .fa-lightbulb-o{
+#engagement #one{
+    background-color: #b5d2ff;
+    padding: 20px;  
+    margin-top: 10px; 
+}
+#engagement #two{
+    background-color: #ffeabf;
+    padding: 20px; 
+    margin-top: 10px; 
+}
+#engagement #three{
+    background-color: #ecffdd;
+    padding: 20px;   
+    margin-top: 10px;
+}
+#engagement .fa-lightbulb-o{
     font-size: 40px;
 }
-#modal-engagement {
-    color: #11526e;
-    padding: 10px 15px;
-    height: auto;
-    padding-top: 15px;
+#engagement .media {
+    border: none;
+    margin: 0px;
+    max-height: 110px;
+    padding: 0px;
+    background-color: #11526e00;
 }
-#modal-engagement h5{
-    font-size: 18px;
-}
-#modal-engagement p{
+#engagement .media p{
     font-size: 14px;
+    font-weight: 300;
+}
+
+
+@media(max-width:992px){
+    #engagement .second{
+        margin-top: 50px;
+    }
 }

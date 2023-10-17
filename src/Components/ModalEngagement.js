@@ -4,8 +4,9 @@ export default function ModalEngagement(props) {
   return (
     <>
    
-      <div id='modal-engagement'  class="media">
-  <i className={props.icon}></i>
+   
+      <div id={props.clas} class="media  ">
+   <div className='icon-modal'>{props.icon}</div>
   <div class="media-body">
     <h5 class="mt-0">{props.title}</h5>
     <p>{props.para}</p>

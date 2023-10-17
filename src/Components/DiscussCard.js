@@ -1,18 +1,24 @@
 import React from 'react'
 import "../utilities/DiscussCard.css";
+import MainPara from './MainPara';
+import MainHeading from './MainHeading';
+import ButtonOne from './ButtonOne';
 export default function DiscussCard(props) {
   return (
     <>
-       <div id='discussing' className="container">
-          <div id='box-discuss' className="col-12">
-            <div className="left-circle"></div>
+       <div id='discussing'>
+         <div className='container'>
+          <div className='row'>
+          <div className="col-12">
+             <MainHeading mainheading={props.title}/>
+             <MainPara mainpara={props.para} />
+             <ButtonOne btnOne={props.btn} />
+             <div className="left-circle"></div>
             <div className="right-circle"></div>
             <div className="bottom-circle"></div>
-            <h1>{props.title}</h1>
-            <p>{props.para}</p>
-            <button className='btn'>{props.btn}</button>
           </div>
-        </div>
+          </div>
+        </div></div>
     </>
   )
 }

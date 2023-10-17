@@ -10,24 +10,28 @@
 }
 .media:hover{
     transition: .7s;
-    background-color: white;
-    box-shadow: 0px 0px 12px rgb(138, 138, 138);
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgb(212, 212, 212);
 }
-.media .fa-mobile{
-    font-size: 50px;
-    padding: 15px 25px;
-}
-.media i{
-    font-size: 33px;
+.media .main-img{
     background-color: #f5f9f6;
-    color: #00983d;
+    color: #00702d;
+    padding:19px;
     border-radius: 50%;
-    padding: 20px;
+}
+.media .main-img svg{
+    width: 2em;
+    height: 2em;
 }
 .media h5{
     font-size: 16px;
     font-weight: bold;
+    color: #000;
 }
 .media .media-body{
     margin-left: 10px;
+}
+
+@media(max-width:596px){
+   
 }

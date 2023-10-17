@@ -1,7 +1,7 @@
 #web-development{
     margin-top: 100px;
 }
-#web-development span{
+ span{
     color: #00722e;
 }
 h1{
@@ -10,11 +10,11 @@ h1{
 #web-development .text{
     margin-top: 70px;
 }
- p{
+ /* p{
     font-size: 18px;
     color: #0d252e;
     font-weight: 600;
-}
+} */
 #web-development i{
     color: #00722e;
     font-size: 22px;
@@ -28,4 +28,62 @@ h1{
 #get-started{
     margin-top: 80px;
     text-align: center;
+}
+#web-discuss{
+    text-align: center;
+}
+#web-app{
+    margin-top: 120px;
+    text-align: center;
+}
+#web-app p{
+  margin: 0px 200px;
+}
+
+#web-app .card p{
+    margin: 0px;
+    font-weight: 500;
+    color: #0d252e;
+}
+#create-website{
+    margin-top: 80px;
+    text-align: center;
+}
+#web-app{
+    margin-top: 80px;
+    text-align: center;
+}
+#create-website p{
+  margin: 0px 170px;
+}
+#create-website .card p{
+    margin: 0px;
+    font-weight: 500;
+    color: #0d252e;
+}
+
+#create-website .card{
+    height: 250px;
+}
+
+#tools{
+    margin-top: 80px;
+    text-align: center;
+    justify-content: center;
+}
+#tools .col-lg-2{
+    margin-top: 20px;
+    margin: 5px;
+}
+#tools img{
+    width: 70%;
+    /* background-color: antiquewhite; */
+     padding: 20px 10px ;
+     border-radius: 20px;
+}
+#tools .a{
+    background-color: #edf8ff;
+}
+#tools .b{
+    background-color: #ecffdd;
 }

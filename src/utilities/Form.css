@@ -1,6 +1,9 @@
 #Form-alone{
     margin-top: 0px;
 }
+form h2{
+    font-weight: 600;
+}
 form{
     border-radius: 10px;
     background-color: #fff;

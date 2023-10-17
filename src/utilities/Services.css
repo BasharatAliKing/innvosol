@@ -1,9 +1,26 @@
-#Services{
-    text-align: center;
-    margin-top: 150px;
+#Services h1{
+    color: #11526e;
 }
-p{
-    font-size: 14px;
+#Services p{
+    color: #11526e;
+}
+#Services .main-services{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    padding-top: 100px;
+}
+#Services .media{
+    height: 150px;
+}
+#Services .media p{
+    padding: 0px;
+    text-align: start;
+   font-size: 15px;
+   font-weight: 300;
 }
 #Services #main-heading{
     color: #0B0C2214;
@@ -11,45 +28,27 @@ p{
     font-weight: 600;
     text-transform: uppercase;
 }
-#Services h2{
-    margin-top: -110px;
-    font-size: 44px;
-    color: #11526e;
-    font-weight: 900;
+#Services .main-services h1{
+    margin-top: -120px;
 }
-#Services .para{
-   
-    color: #11526e;
-    font-size: 18px;
-    font-weight: 400;
-    margin: 30px 200px;
+#Services .main-services p{
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+
 }
  #conversation{
     text-align: center;
-    margin-top: 80px;
+    margin-top: 0px;
    background: url(/public//bg-hero.png)no-repeat center center/cover;
-   padding-bottom: 40px;
 }
-#conversation h1{
-    margin: 0px;
-    padding: 0px;
-    color: #11526e;
-}
-#conversation .btn{
-    margin-top: 20px;
-    font-size: 15px;
-    background-color: #028329;
-    border-radius: 8px;
-    padding: 10px 30px;
-    color: white;
-    font-weight: 400;
-}
-#conversation .btn:hover{
-    background-color: #00581b;
-    transition: .7s;
-}
-#tech{
-    margin-top: 80px;
+
+#tech .tech-text{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    text-align: center;
+    justify-content: center;
 }
 #tech p{
     color: #11526e;
@@ -69,6 +68,34 @@ p{
     transition: .7s;
 }
 
+#tech .slider{
+    position: relative;
+    overflow: hidden;
+}
+#tech .slide{
+    display: flex;
+    flex-direction: row;
+    width: calc(250px * 40);
+    animation: scroll 40s linear infinite;
+    overflow: hidden;
+}
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }100%{
+       transform: translateX(calc(-100px *10));
+    }
+}
+#tech .slider .item{
+    background-color: #00bd4b;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 0px 5px;
+    height: 50px;
+}
+
 @media(max-width:992px){
     #Services h2{
         margin-top: -110px;
@@ -76,18 +103,25 @@ p{
         color: #11526e;
         font-weight: 900;
     }
-    #Services .para{
-        margin: 30px 00px;
+    #Services .main-services p{
+        width: 100%;
     }   
 }
+@media(max-width:768px){
+    #tech .tech-text{
+        height: 90vh;
+    }
+}
 @media (max-width:576px){
+    #Services{
+        text-align: center;
+        margin: 10px 0px;
+    }
     #Services #main-heading{
     font-size: 70px;
 }
-#Services h2{
-    margin-top: -70px;
-    font-size: 33px;
-}
+
+
     #tech .box{
         margin: 10px 10px;
         padding: 4px 20px;
